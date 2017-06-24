@@ -2,20 +2,8 @@
 
 console.log('content scripts!');
 
-console.log('background for firebase clicks example');
 
-// Initialize Firebase
-// This uses my personal api key for firebase.
-// If you copy and paste this code, remember to create your OWN
-// free firebase app and replace this config with yours.
-var config = {
-	apiKey: "AIzaSyB4cHhG0lhQ_0QBhQX1M9pfHbfN-rx5k7s",
-	authDomain: "extension-backend.firebaseapp.com",
-	databaseURL: "https://extension-backend.firebaseio.com",
-	storageBucket: "extension-backend.appspot.com",
-	messagingSenderId: "778159737395"
-};
-firebase.initializeApp(config);
+
 
 var classId = 'HTB-week-5';
 var classClickRefName = 'class/' + classId + '/clickCount';
