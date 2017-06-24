@@ -1,0 +1,124 @@
+body {
+  padding: 20px;
+  background: #09507c;
+  font-family: "Nitti", "Helvetica";
+}
+
+h2 {
+  font-family: "Nitti", "Helvetica";
+  color: #fec14f;
+}
+
+input{
+  margin: 5px;
+  padding: 8px;
+  width: 130px;
+  font-family: "Nitti Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a{
+  text-decoration: none;
+}
+
+#header{
+  text-align:center;
+  color:white;
+}
+
+#logo{
+  width: 200px;
+}
+
+#login{
+  text-align: center;
+}
+
+#lkit{
+  margin: 0;
+  position: relative;
+  top: -20px;
+  font-size: 25px;
+}
+
+#myKit{
+  letter-spacing: 0px;
+  margin: 10px;
+  font-size: 25px;
+  border-bottom: 1px solid white;
+  display: inline-block;
+}
+
+#dashboard{
+  text-align: center;
+  background: #deedf2;
+  margin: 0px -25px;
+  height: 100%;
+  padding: 4px;
+  width: 250px;
+}
+
+#loginButton{
+  color: #ffdd9c;
+  background-color: #f58832;
+  border-color: #fec14f;
+  border-width: 2px;
+  font-family: "Nitti Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 2px;
+  font-size: 20px;
+  text-transform: uppercase;
+  border-style: solid;
+  margin: 20px 0px 0px 0px;
+  cursor:pointer
+}
+
+#forgotPassword{
+  color:white;
+}
+
+/* Fonts */
+@font-face {
+  font-family: "Nitti Black";
+  src: url('../fonts/nitti-black-v40.woff');
+}
+
+@font-face {
+  font-family: "Nitti Medium";
+  src: url('../fonts/nitti-medium-v40.woff');
+}
+
+@font-face {
+  font-family: "Nitti";
+  src: url('../fonts/nitti-normal-v40.woff');
+}
+
+@font-face {
+  font-family: "Nittigrotesk Black";
+  src: url('../fonts/nittigrotesk-black-v20.woff');
+}
+
+@font-face {
+  font-family: "Nittigrotesk Normal";
+  src: url('../fonts/nitti-normal-v40.woff');
+}
+
+@font-face {
+  font-family: "Nittigrotesk Semilight";
+  src: url('../fonts/nitti-semilight-v40.woff');
+}
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active
+{
+  outline:0px !important;
+  -webkit-appearance:none;
+}
