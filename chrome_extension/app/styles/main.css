@@ -9,6 +9,26 @@ h2 {
   color: #fec14f;
 }
 
+h4{
+  font-size: 10px;
+  margin: 0px;
+  color: #09507c;
+}
+
+h5{
+  background: #09507c;
+  color:white;
+  display:inline-block;
+  padding: 2px;
+  margin: 10px 0px 0px 0px;
+}
+
+h6{
+  font-family: 'Nitti Black';
+  margin: 0px;
+  display: inline-block;
+}
+
 input{
   margin: 5px;
   padding: 8px;
@@ -18,6 +38,10 @@ input{
 
 a{
   text-decoration: none;
+}
+
+p{
+  display: inline;
 }
 
 #header{
@@ -61,18 +85,60 @@ a{
   color: #ffdd9c;
   background-color: #f58832;
   border-color: #fec14f;
+  font-size: 20px;
+}
+
+#forgotPassword{
+  color:white;
+}
+
+#profile{
+  text-align: center;
+  border-bottom: 1px solid #09507c;
+  display: inline-block;
+}
+
+#activity{
+  text-align:left;
+}
+
+#options{
+  text-align:left;
+  display: inline-block;
+}
+
+.img-circle{
+  border-radius: 50%;
+  width: 50px;
+  display: inline-block;
+}
+
+.btn{
   border-width: 2px;
   font-family: "Nitti Medium", "Helvetica Neue", Helvetica, Arial, sans-serif;
   letter-spacing: 2px;
-  font-size: 20px;
   text-transform: uppercase;
   border-style: solid;
   margin: 20px 0px 0px 0px;
   cursor:pointer
 }
 
-#forgotPassword{
-  color:white;
+.btn-dashboard{
+  font-size: 12px;
+  color: #ffdd9c;
+  background-color: #f58832;
+  border-color: #fec14f;
+  display: -webkit-box;
+}
+
+.friend-picture{
+  float:left;
+  margin: 10px;
+}
+
+.profile-information{
+  margin: 4px 5px;
+  padding: 10px;
 }
 
 /* Fonts */
